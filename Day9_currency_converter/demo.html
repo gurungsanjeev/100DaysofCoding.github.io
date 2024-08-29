@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Temperature Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="inner-container">
+      <h1>Temperature <span>Calculation</span></h1>
+      <hr>
+      <fieldset>
+        <legend>Celsius</legend>
+          <div id="celsius">
+            <input type="range" id="celsius-range" min="-273" max="250" oninput="celsiusInput()" value="0">
+          <label > <input type="number" id="celsius-value" oninput="updateCelsiusRange()" placeholder="0"> °C</label>
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>Fahrenheit</legend>
+          <div id="fahrenheit">
+            <input type="range" id="fahrenheit-range" oninput="fahrenheitInput()" min="-222" max="255">
+            <label ><input type="number" id="fahrenheit-value" oninput="updateFahrenheitRange()" placeholder="0"> °F</label>
+          </div>
+      </fieldset>
+    </div>
+  </div>
+  <script src="javascript.js"></script>
+</body>
+</html>

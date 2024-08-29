@@ -1,0 +1,75 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(94, 131, 211);
+
+}
+.container{
+  background-color: rgb(36, 35, 35);
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 23px 12px 62px white;
+}
+h1{
+  text-align: center;
+  color: rgb(153, 153, 241);
+  text-shadow: 1.5px 1px 1px white;
+ 
+}
+span{
+  color: rgb(130, 148, 207);
+}
+#celsius-value,#fahrenheit-value{
+  height: 25px;
+  width: 60px;
+}
+#celsisus-range{
+  padding: 10px 20px;
+}
+
+/* css on the input type number */
+input[type="number"]{
+ text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  
+  
+}
+fieldset{
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  font: 1em cursive;
+  border-radius: 5px;
+}
+input[type="range"]{
+ 
+  appearance: none;
+  height: 12px;
+  background: linear-gradient(to right, #c1cbdb -35%, #4069c1 var(--value, 32%), red var(--value, 88%), red 100%);
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 250px;
+
+  
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default styling */
+  appearance: none;
+
+  width: 16px;
+  height: 15px;
+  background: #ffffff; /* White thumb color */
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5); /* Optional: add a subtle shadow */
+}

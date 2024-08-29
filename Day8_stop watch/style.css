@@ -1,0 +1,35 @@
+/* styles.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.timer-container {
+  text-align: center;
+}
+
+#timer-display {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#start-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start-button:hover {
+  background-color: #0056b3;
+}

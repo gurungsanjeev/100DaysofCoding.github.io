@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: grey;
+}
+.container{
+  background-color: #fff;
+  padding: 20px;
+}
+img{
+  height: 30px;
+  width: 30px;
+}
+input{
+  float: right;
+justify-content: center;
+align-items: center;
+display: flex;
+padding: 10px 10px;
+}
+.list1,.list2,.list3,.list4,.list5,.list6,.list7{
+  margin: 20px;
+}
