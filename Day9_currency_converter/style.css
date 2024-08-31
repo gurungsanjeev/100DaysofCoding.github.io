@@ -16,7 +16,9 @@ body{
 }
 img{
   height: 30px;
-  width: 30px;
+  width: 40px;
+  margin-right: 10px;
+  object-fit: fill;
 }
 input{
   float: right;
@@ -24,6 +26,7 @@ justify-content: center;
 align-items: center;
 display: flex;
 padding: 10px 10px;
+margin: 0px 0px 0px 10px;
 }
 .list1,.list2,.list3,.list4,.list5,.list6,.list7{
   margin: 20px;
